@@ -7,7 +7,7 @@ var cheerio = require('cheerio');
 var response =''
  
 app.get('/', function (req, res) {
-  res.send('Hello World')
+    res.send("Peace harry !")
 })
 
 app.get('/ni3mumbaikar',function(req,res){
@@ -15,7 +15,11 @@ app.get('/ni3mumbaikar',function(req,res){
 })
 
 app.get('/covid-19-india',function(req,res){
-    track_covid().then(res.send(response))
+    track_covid().then(()=>{
+    app.use(express.static('public'));
+    app.set('view engine', 'ejs')
+    res.render('presentor',{covid_result:response})
+    })
 })
 
 async function track_covid(){
