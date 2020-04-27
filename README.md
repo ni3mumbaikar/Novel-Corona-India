@@ -1,6 +1,7 @@
 # Novel-Corona-India
 This project represents live counts of patients across India. It uses node.js, express,js and ejs.  
-Express basically sets the server up or in listening mode to get http requests and reponse with ejs file.  
+Express basically sets the server up or in listening mode to get http requests and reponse with ejs file. 
+  
 Click [here](https://arcane-harbor-27723.herokuapp.com/covid-19-india) to launch demo of this web app.
   
 ## Getting started  
