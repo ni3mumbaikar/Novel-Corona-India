@@ -1,16 +1,16 @@
 .bg {
-  /* The image used */
-  /* Full height */
-  height: 100%;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    /* The image used */
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.parent{
-  display: flex;
-  background-image: url("./bg2.jpg");
-  justify-content: center;
-  align-items: center;
+.parent {
+    display: flex;
+    background-image: url("./bg2.jpg");
+    justify-content: center;
+    align-items: center;
 }
