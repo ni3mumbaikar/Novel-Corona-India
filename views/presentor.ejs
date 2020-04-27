@@ -8,52 +8,67 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
     <title>COVID 19 TRACKER</title>
 </head>
 
 <body>
-    <section id="dashboard">
-        <div class="bg parent">
-            <div class="row col-12">
-                <div class="container">
-                    <div class="card-deck">
-                        <div class="card text-center shadow bg-black" style="border-radius:15px">
-                            <div class="card-block p-3">
-                                <h4 class="card-title">ACTIVE CASES</h4>
-                                <p class="card-text" style="color:blue;">
-                                    <%= active %>
-                                </p>
+    <div class="main-section p-0 m-0 ">
+        <div class="bg  parent">
+            <div class="container">
+                <div class="row col-md-12">
+                    <div class="container">
+                        <div class="card-deck">
+                            <div class="card text-center shadow bg-black" style="border-radius: 10px">
+                                <div class="card-block p-3">
+                                    <h5 class="card-title">INFECTED</h5>
+                                    <p class="card-text" style="color:blue;">
+                                        <%= active %>
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card text-center shadow bg-black" style="border-radius:15px">
-                            <div class="card-block p-3">
-                                <h4 class="card-title">DISCHARGED</h4>
-                                <p class="card-text active-case discharged" style="color:green;">
-                                    <%= discharged %>
-                                </p>
+                            <div class="card text-center shadow bg-black" style="border-radius: 10px">
+                                <div class="card-block p-3">
+                                    <h5 class="card-title">DISCHARGED</h5>
+                                    <p class="card-text active-case discharged" style="color:green;">
+                                        <%= discharged %>
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card text-center shadow bg-black" style="border-radius:15px">
-                            <div class="card-block p-3">
-                                <h4 class="card-title">DEATHS</h4>
-                                <p class="card-text death" style="color:red;">
-                                    <%= deaths %>
-                                </p>
+                            <div class="card text-center shadow bg-black" style="border-radius: 10px">
+                                <div class="card-block p-3">
+                                    <h5 class="card-title">DEATHS</h5>
+                                    <p class="card-text death" style="color:red;">
+                                        <%= deaths %>
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card text-center shadow bg-black" style="border-radius:15px">
-                            <div class="card-block p-3">
-                                <h4 class="card-title">MIGRATED</h4>
-                                <p class="card-text" style="color:darkslategray;">
-                                    <%= migrated %>
-                                </p>
+                            <div class="card text-center shadow bg-black" style="border-radius: 10px">
+                                <div class="card-block p-3">
+                                    <h5 class="card-title">MIGRATED</h5>
+                                    <p class="card-text" style="color:darkorange;">
+                                        <%= migrated %>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="text-center pt-5">
+                    <a class="github-button" href="https://github.com/ni3mumbaikar" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Follow @ni3mumbaikar on GitHub">Follow @ni3mumbaikar</a>
+                </div>
+
             </div>
         </div>
-    </section>
-</body>
+        <div class="page-footer">
+            <div class="footer p-0">
+                <p class="warning text-center">This was a project just to get hands on node+express with ejs
+                    This website does not stores or hosts any of the displayed data you see here is just replicated from offical Government Of India <a href="https://www.mygov.in/covd-19" style="color: inherit"><u>website</u></a></p>
+                <p class="ni3">designed with ❤ by <a href="https://www.github.com/ni3mumbaikar" style="color: inherit"><u>ni3mumbaikar</u></a></p>
 
+
+            </div>
+        </div>
+    </div>
+</body>
 </html>

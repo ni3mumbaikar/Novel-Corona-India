@@ -1,16 +1,45 @@
-.bg {
-    /* The image used */
-    /* Full height */
-    height: 100%;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.main-section {
+  /* The image used */
+  /* Full height */
+  height: 100%;
+  /* Center and scale 
+    the image nicely */
+  background-image: url("../res/bg2.jpg");  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.parent {
-    display: flex;
-    background-image: url("./bg2.jpg");
-    justify-content: center;
-    align-items: center;
+.parent{
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.warning{
+    color: aliceblue;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 0px ! important;
+    margin-bottom: 0px !important;
+}
+
+.ni3{
+    color: white;
+    opacity: 0.7;
+    padding-top: 2px;
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 0px ! important;
+    margin-bottom: 0px !important;
+}
+
+.page-footer{
+    position: absolute;
+    bottom: 10px;
+    left: 1%;
+    right: 1%;
+    padding-bottom: 0px ! important;
+    margin-bottom: 0px !important;
 }
