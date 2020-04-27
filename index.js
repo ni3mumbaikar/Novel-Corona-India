@@ -20,8 +20,8 @@ app.get('/ni3mumbaikar',function(req,res){
 
 
 app.use(express.static('public'));
-app.set('view engine', 'ejs')
-
+app.use(express.static(__dirname + '/public'));
+app.set('view engine', 'ejs');
 app.get('/covid-19-india',function(req,res){
     track_covid().then(()=>{
     res.render('presentor',{active:active,discharged:discharged,migrated:migrated,deaths:deaths})
