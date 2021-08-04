@@ -1,3 +1,6 @@
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors)
+
+
 # Novel-Corona-India
 This project represents live counts of patients across India. It uses node.js, express,js and ejs.  
 Express basically sets the server up or in listening mode to get http requests and reponse with ejs file. 
@@ -16,7 +19,7 @@ To run the project
 ## Screenshot  
 ![snapshot](snapshot/web_portal.png)  
   
-:warning: Image values are outdated check again on [MyGov](https://mygov.in/covid-19) 
+:warning: Image values are outdated check again on [MyGov](https://mygov.in/covid-19)  
 
 #### Safeguard Text : )
 *The website neither hosts data being displayed nor stores somewhere else.
